@@ -1,0 +1,96 @@
+aid: mitchell-and-ness
+url: https://raw.githubusercontent.com/api-evangelist/mitchell-and-ness/refs/heads/main/apis.yml
+name: Mitchell & Ness
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Sports Apparel
+  - Throwback Jerseys
+  - Headwear
+  - Licensed Merchandise
+  - Retail
+description: 'Vintage and throwback sports apparel brand founded in Philadelphia in 1904. Holds league-licensed agreements with the NBA, NFL, MLB, NHL, and MLS to produce authentic reproduction jerseys, snapback hats, varsity jackets, hoodies, and shorts. Acquired in February 2022 by Fanatics, Inc. alongside investors Jay-Z (Marcy Venture Partners), LeBron James / Maverick Carter (SpringHill Co), and Kevin Hart.'
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.mitchellandness.com/
+  - type: ParentCompany
+    url: https://www.fanaticsinc.com/
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Mitchell_%26_Ness
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/mitchell-ness-nostalgia-co-
+  - type: Instagram
+    url: https://www.instagram.com/mitchell_and_ness/
+  - type: Features
+    data:
+      - name: Authentic Throwback Jerseys
+        description: Reproduction wool-flannel and mesh jerseys built from the company's archive of historical league uniforms, sized and detailed to match the original eras.
+      - name: Hardwood Classics Collection
+        description: NBA-licensed throwback line introduced in 1999 that drove the company's revenue expansion from $1.5M (1998) to $23M (2002).
+      - name: Snapback Headwear
+        description: Vintage-style snapback caps across NBA, NFL, MLB, NHL, and college team marks, including team logos from defunct franchises and historical color palettes.
+      - name: Varsity, Satin, and Letterman Jackets
+        description: Throwback team jackets including satin Starter-style and wool/leather varsity silhouettes carrying league and team marks.
+      - name: Hoodies, Shorts, and Tracksuits
+        description: Throwback fleece, shorts, and tracksuits matching the era-correct branding of the jersey line.
+      - name: Artist & Cultural Collaborations
+        description: Collaborative drops with musicians, artists, and cultural figures that reinterpret league marks with limited-run graphics.
+      - name: E-commerce Storefront
+        description: Direct-to-consumer online store at mitchellandness.com selling the full throwback catalog and exclusive drops.
+  - type: UseCases
+    data:
+      - name: Licensed Vintage Sports Apparel
+        description: Sale of authentic, league-licensed reproductions of historical professional and college team uniforms and headwear.
+      - name: Limited-Edition Drops
+        description: Time-limited and quantity-limited collaboration releases tied to anniversaries, retired players, and cultural moments.
+      - name: Wholesale to Sports Retailers
+        description: Distribution into Fanatics' retail network, league team stores, and third-party sporting goods and lifestyle retailers.
+      - name: League Anniversary & Throwback Programs
+        description: Officially licensed product runs tied to NBA / NFL / MLB / NHL / MLS season anniversaries, hall-of-fame inductions, and throwback nights.
+  - type: Authentication
+    data:
+      - name: No Public Developer API
+        description: Mitchell & Ness does not publish a public developer portal, OpenAPI specification, or partner API. Storefront sales run through the Fanatics-owned mitchellandness.com site, and league licensing is handled through bilateral agreements rather than a developer program.
+  - type: Licensing
+    data:
+      - name: NBA License
+        description: Official league license to reproduce historical National Basketball Association team uniforms and apparel (Hardwood Classics program).
+      - name: NFL License
+        description: Official league license to reproduce historical National Football League team uniforms and apparel.
+      - name: MLB License
+        description: Official league license to reproduce historical Major League Baseball team uniforms, with archive records extending back to the 1869 Cincinnati Red Stockings.
+      - name: NHL License
+        description: Official league license to reproduce historical National Hockey League team uniforms and apparel.
+      - name: MLS License
+        description: Official league license to reproduce Major League Soccer team apparel.
+      - name: NCAA / College Licensing
+        description: Collegiate licensing agreements (via league and CLC / Learfield-style intermediaries) for throwback college team apparel.
+  - type: Compliance
+    data:
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for online card payments on mitchellandness.com.
+      - name: CCPA
+        description: California Consumer Privacy Act compliance for U.S. consumer personal data collected via the storefront.
+      - name: GDPR
+        description: General Data Protection Regulation compliance for European Union shoppers.
+      - name: League Licensing Compliance
+        description: Use of league trademarks, team marks, and player likeness governed by per-league licensing agreements with the NBA, NFL, MLB, NHL, MLS, and collegiate rightsholders.
+  - type: Integrations
+    data:
+      - name: Fanatics, Inc.
+        description: Parent company since February 2022; provides retail distribution, league relationships, and operational backbone.
+      - name: Marcy Venture Partners
+        description: Jay-Z's venture firm participated as an investor in the 2022 acquisition consortium that took ownership of Mitchell & Ness from Juggernaut Capital Partners.
+      - name: SpringHill Company
+        description: LeBron James and Maverick Carter's media and brand company participated in the 2022 acquisition consortium.
+      - name: NBA / NFL / MLB / NHL / MLS
+        description: League licensors whose historical uniforms and marks Mitchell & Ness is authorized to reproduce.
+      - name: Third-Party Retailers
+        description: Distribution into sporting goods retailers, lifestyle boutiques, and Fanatics-operated team stores.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
