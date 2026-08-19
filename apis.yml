@@ -23,7 +23,7 @@ tags:
 description: 'Vintage and throwback sports apparel brand founded in Philadelphia in 1904. Holds league-licensed agreements with the NBA, NFL, MLB, NHL, and MLS to produce authentic reproduction jerseys, snapback hats, varsity jackets, hoodies, and shorts. Acquired in February 2022 by Fanatics, Inc. alongside investors Jay-Z (Marcy Venture Partners), LeBron James / Maverick Carter (SpringHill Co), and Kevin Hart.'
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
